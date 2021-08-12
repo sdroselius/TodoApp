@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TodoTest" project="TodoJPA" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.skilldistillery.todoapp.entities.TodoTest" time="0.142" displayname="TodoTest" uniqueid="[engine:junit-jupiter]/[class:com.skilldistillery.todoapp.entities.TodoTest]">
+    <testcase name="test_Todo_entity_mapping" classname="com.skilldistillery.todoapp.entities.TodoTest" time="0.138" displayname="test_Todo_entity_mapping()" uniqueid="[engine:junit-jupiter]/[class:com.skilldistillery.todoapp.entities.TodoTest]/[method:test_Todo_entity_mapping()]"/>
+    <testcase name="test_Todo_User_ManyToOne_relationship_mapping" classname="com.skilldistillery.todoapp.entities.TodoTest" time="0.004" displayname="test_Todo_User_ManyToOne_relationship_mapping()" uniqueid="[engine:junit-jupiter]/[class:com.skilldistillery.todoapp.entities.TodoTest]/[method:test_Todo_User_ManyToOne_relationship_mapping()]"/>
+  </testsuite>
+</testrun>

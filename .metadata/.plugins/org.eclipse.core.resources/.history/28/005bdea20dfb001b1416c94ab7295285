@@ -1,0 +1,45 @@
+package com.skilldistillery.todoapp.services;
+
+import java.util.Set;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.skilldistillery.todoapp.entities.Todo;
+import com.skilldistillery.todoapp.repositories.TodoRepository;
+
+@Service
+public class TodoServiceImpl implements TodoService {
+
+	@Autowired
+	private TodoRepository repo;
+	
+	@Override
+	public Set<Todo> index(String username) {
+		return repo.findByUser_Username(username);
+	}
+
+	@Override
+	public Todo show(String username, int tid) {
+		return repo.findByIdAndUser_Username(tid, username);
+	}
+
+	@Override
+	public Todo create(String username, Todo todo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Todo update(String username, int tid, Todo todo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean destroy(String username, int tid) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.skilldistillery.todoapp.repositories;
+
+public interface TodoRepository {
+
+}

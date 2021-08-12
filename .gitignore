@@ -1,0 +1,7 @@
+.SD_Store
+bin
+build
+target
+.gradle
+*.bak
+*.war
